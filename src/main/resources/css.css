@@ -1,0 +1,86 @@
+
+#car1butId{
+  -fx-background-image: url(file:C:/Users/Alexander/IdeaProjects/untitled1/Laba4Sii/src/main/resources/trainingImages/car2.jpg);
+  -fx-background-size: 100 100;
+  -fx-border-color: black;
+}
+
+#car2butId{
+  -fx-background-image: url(file:C:/Users/Alexander/IdeaProjects/untitled1/Laba4Sii/src/main/resources/trainingImages/car.jpg);
+  -fx-background-size: 100 100;
+  -fx-border-color: black;
+  -fx-background-color: white;
+}
+
+#moto1butId{
+  -fx-background-image: url(file:C:/Users/Alexander/IdeaProjects/untitled1/Laba4Sii/src/main/resources/trainingImages/moto.jpg);
+  -fx-background-size: 100 100;
+  -fx-border-color: black;
+}
+
+#moto2butId{
+  -fx-background-image: url(file:C:/Users/Alexander/IdeaProjects/untitled1/Laba4Sii/src/main/resources/trainingImages/moto2.jpg);
+  -fx-background-size: 100 100;
+  -fx-border-color: black;
+}
+
+#ship1butId{
+  -fx-background-image: url(file:C:/Users/Alexander/IdeaProjects/untitled1/Laba4Sii/src/main/resources/trainingImages/ship.jpg);
+  -fx-background-size: 100 100;
+  -fx-border-color: black;
+}
+
+#ship2butId{
+  -fx-background-image: url(file:C:/Users/Alexander/IdeaProjects/untitled1/Laba4Sii/src/main/resources/trainingImages/ship2.jpg);
+  -fx-background-size: 100 100;
+  -fx-border-color: black;
+}
+
+#airplane1butId{
+  -fx-background-image: url(file:C:/Users/Alexander/IdeaProjects/untitled1/Laba4Sii/src/main/resources/trainingImages/airplane.jpg);
+  -fx-background-size: 100 100;
+  -fx-border-color: black;
+}
+
+#airplane2butId{
+  -fx-background-image: url(file:C:/Users/Alexander/IdeaProjects/untitled1/Laba4Sii/src/main/resources/trainingImages/fly.jpg);
+  -fx-background-size: 100 100;
+  -fx-border-color: black;
+}
+
+#train1butId{
+  -fx-background-image: url(file:C:/Users/Alexander/IdeaProjects/untitled1/Laba4Sii/src/main/resources/trainingImages/train.jpg);
+  -fx-background-size: 100 100;
+  -fx-border-color: black;
+}
+
+#train2butId{
+  -fx-background-image: url(file:C:/Users/Alexander/IdeaProjects/untitled1/Laba4Sii/src/main/resources/trainingImages/train2.jpg);
+  -fx-background-size: 100 100;
+  -fx-border-color: black;
+}
+
+#gridId{
+  -fx-border-color: black;
+}
+
+#carPid, #motoPid, #shipPid, #airplanePid, #trainPid, #epochId, #nuId, #statusId{
+  -fx-background-color: transparent;
+  -fx-border-style: solid;
+  -fx-border-color : black;
+  -fx-border-width: 0 0 1 0;
+  -fx-font-style: italic;
+  -fx-alignment: center;
+}
+
+#VBox #pane{
+  -fx-border-style: solid;
+  -fx-border-color : black;
+  -fx-border-radius: 2;
+}
+
+#trainingStartId{
+  -fx-background-color: transparent;
+  -fx-border-style: solid;
+  -fx-border-color : black;
+}
