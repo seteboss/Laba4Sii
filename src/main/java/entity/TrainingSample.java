@@ -17,6 +17,7 @@ public class TrainingSample {
 		String url;
 		double[] vectorOfInputValues;
 		double[] vectorOfOutputValues;
+		private int test = 0;
 
 		public void init(String urlImage, int countOutputValues, int numberOutputValues, int size) throws IOException {
 				url = urlImage;
