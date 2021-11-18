@@ -85,10 +85,10 @@ public class PrimaryController {
     @FXML
     void initialize() throws IOException {
 
-        final int a = 1;
+        final int b = 1;
 
         BackpropagationAlgorithm backpropagationAlgorithm = new BackpropagationAlgorithm();
-        backpropagationAlgorithm.initTrainingSamples(sizeImg);
+//        backpropagationAlgorithm.initTrainingSamples(sizeImg);
         trainingStartId.setOnAction(actionEvent -> {
             backpropagationAlgorithm.setEpoch(Integer.parseInt(epochId.getText()));
             backpropagationAlgorithm.setLearnRate(Double.parseDouble(nuId.getText()));
@@ -98,7 +98,7 @@ public class PrimaryController {
 
 
         car1butId.setOnAction(actionEvent -> {
-            renderGridPane(sizeImg);
+//            renderGridPane(sizeImg);
             backpropagationAlgorithm.recognition(3);
             recognition(3, backpropagationAlgorithm);
         });
