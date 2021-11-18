@@ -18,6 +18,7 @@ public class ImageService {
 		public static BufferedImage resize(BufferedImage img, int newW, int newH) {
 				int w = img.getWidth();
 				int h = img.getHeight();
+				int ff;
 				BufferedImage dimg = new BufferedImage(newW, newH, img.getType());
 				Graphics2D g = dimg.createGraphics();
 				g.setRenderingHint(RenderingHints.KEY_INTERPOLATION, RenderingHints.VALUE_INTERPOLATION_BILINEAR);
