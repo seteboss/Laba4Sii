@@ -137,6 +137,7 @@ public class BackpropagationAlgorithm {
 				double err;
 				int i, sample=0, iterations=0;
 				int sum = 0;
+				int ssum = 0;
 
 				while (true){
 
