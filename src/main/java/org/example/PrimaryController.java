@@ -105,6 +105,7 @@ public class PrimaryController {
 
         car2butId.setOnAction(actionEvent -> {
             renderGridPane(sizeImg);
+            renderGridPane(sizeImg);
             backpropagationAlgorithm.recognition(2);
             recognition(2, backpropagationAlgorithm);
         });
