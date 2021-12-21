@@ -85,8 +85,10 @@ public class PrimaryController {
     @FXML
     void initialize() throws IOException {
 
+        final int b = 1;
+
         BackpropagationAlgorithm backpropagationAlgorithm = new BackpropagationAlgorithm();
-        backpropagationAlgorithm.initTrainingSamples(sizeImg);
+//        backpropagationAlgorithm.initTrainingSamples(sizeImg);
         trainingStartId.setOnAction(actionEvent -> {
             backpropagationAlgorithm.setEpoch(Integer.parseInt(epochId.getText()));
             backpropagationAlgorithm.setLearnRate(Double.parseDouble(nuId.getText()));
